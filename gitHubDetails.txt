@@ -1,0 +1,67 @@
+
+access token--githubaccount--.setting-->developersettings-->peronalAccessToken-->Token(classic)--never expire-->
+generatenewtoken-->GenerateNew Token(classic) select repo while generating token
+
+https://github.com/prab3184/FirstLeadProject.git
+access token for eclipse--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  -----never expire
+git hub password: ayush.3184
+
+//prabhakaiitr@3184--prab3184--mainAccount  --github password --ayush.3184
+----------------------------------------------------------------------------------------------
+
+//pranee.3184@gmail.com---     ayush3184       github password --ayush.3184
+
+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  ----password never expire--eclipse
+-----------------------------------------------------------------------------------------------------
+
+//neetu.03011984@gmail.com   --neetu3184   --github password --ayush.3184
+password--never expire(eclise for cloning)
+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
+
+--colllabration is added by Reposiratory basis
+
+
+1. Lead create project in eclipse-->R click on projct -->team-->share project-->create local Repo anywhere that will communicate to github
+-->add eclipse wokspace changes to stagged(r click on project--team--+ to stagged, then * will appear on all projects components of eclipse workspace)
+-->commit to local Repo(all * and + sign from project componet will be removed)
+--push new lead project to github Repo: R click on project-->Team-->remote-->push-->give uri of gitHub repo-->userName as mailId and password as LeadToken
+-->source ref: select master branch-->+ add spec
+
+add collaborator(developer) to Lead project:click on specific github repo/Lead repo-->setting-->collaborators-->add peole by mailid/userName
+
+afteradding people invitation is send to people which is valid for 7 days if they join/except then they can clone main branch from Lead repo (gitHub)
+accepting request by invitte-->click on pic/profie-->your Organization-->join-->accept invitation-->after accepting
+projects came in to developer github account (having same link address as of lead--https://github.com/prab3184/FirstLeadProject)
+now developer can clone using link and start working on project
+==--only developer can push from new branch (branch-X,branch-y..etc) and Lead cannot push from new branch to gitHub repo
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+developer accesssing to main branch and working on it:
+1.search gutReposiratories(git)-->clone a git reposiratory-->give uri (link of Lead prohect from git hub which is same for all developer--https://github.com/prab3184/FirstLeadProject)
+-->give password never expire as generated--after few next-->select local destination(local repo, any where as developer wish)
+local reo in our case is( D:\GITHUB-Practice\ayush-3184-collab)--D:\GITHUB-Practice\ayush-3184-collab\FirstLeadProject
+--a local reposiratory in above destination will be created in workspace(eclipse-git Reposiratories) while in D drive its already created by developer and only project is pasted there
+FirstLeadProject--project pasted in local repo which can be imported to workspace(eclipse) from that local reposiratory
+--import project(from eclipse)-->git-->projects from git(first one)-->next-->existing local reposiratory-->few nct-->finish
+now developer should create new branch in local repo:branches--Local(folder)-->R click -->switch To-->new branch
+--merging of branch(master) to newly creted is done, so that after checkeing out/taking pull from from gitHub reposiratory
+to master branch can be merged to newly created branch which is working branch for developer and he will push the new 
+branch (newly created) to gitHub repo( if merge is not taken from master present in workspace the changes taken from GitHub
+reposiratory will remain in master branch and as the developer is pushing new branch to gitHub repo so the changes made by other
+developer will not reflect in newly created branch and the same which r not merged to new branch will not reflect in pushed
+branch to gitHub Reposiratory)
+
+after making change in branch -X do +add to index through team(Rclick on project)-->commit to local(R click on project -->team-->commit ,change author name make comment)
+-->pushing branch-X to gitHub Reposiratory(R click on project-->team-->remote-->push)-->after few nxt-->select newly creted branch from sourc ref: popup-->add spec-->nxt and finish-->close
+pull request link is given in popup , we can create pull request directly from github account of developer
+
+==creating pull request by developer:go to code open Lead project-->go to pull request bar-->click on create pull request
+(base:-master compare:new branch)
+: the branch creted in eclipse by developer is also available on gitHub account of developer after push
+we can rename branch before push
+we can change account before push by-->
+
